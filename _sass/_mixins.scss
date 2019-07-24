@@ -21,6 +21,14 @@
     -o-background-size: contain;
 }
 
+@mixin background-hundred()
+{
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
 @mixin button-variant($color, $background, $border)
 {
 	color: $color;

@@ -117,10 +117,10 @@ header {
   position: relative;
   width: 100%;
   min-height: auto;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  background-size: 100% 100%;
+  -o-background-size: 100% 100%;
   background-position: center;
   background-image: url("../img/bigdata.jpg");
   text-align: center;

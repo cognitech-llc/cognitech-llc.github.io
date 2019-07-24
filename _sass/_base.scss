@@ -153,7 +153,7 @@ header {
     position: relative;
     width: 100%;
     min-height: auto;
-    @include background-contain;
+    @include background-hundred;
     background-position: center;
     background-image: url('../img/bigdata.jpg');
     text-align: center;
